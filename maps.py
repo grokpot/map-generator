@@ -22,7 +22,7 @@ import osmnx as ox
 
 # G = ox.graph_from_point((32.730869, -96.81765), distance=50000, network_type='drive')
 
-G = ox.graph_from_address('1410 Arizona Ave, Dallas, TX', distance=750, distance_type='network', network_type='drive')
+G = ox.graph_from_address('1500 Arizona Ave, Dallas, TX', distance=750, distance_type='network', network_type='drive')
 fig, ax = ox.plot_graph(G, dpi=600, bgcolor='#333333', edge_color="#666666", node_size=0, edge_linewidth=3.5, show=False, save=True, filename='network', file_format='svg')
 
 
